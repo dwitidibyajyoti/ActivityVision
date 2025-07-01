@@ -1,3 +1,4 @@
 /person-det-env
 yolov8n.pt
 .env
+__pycache__
