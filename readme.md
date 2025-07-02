@@ -69,7 +69,7 @@ To use an Android phone as an IP camera for this project, follow these steps:
     * Locate the `stream_url` variable and update it with the URL you copied from the IP Webcam app:
 
     ```python
-    stream_url = "[http://192.168.2.191:8080/video](http://192.168.2.191:8080/video)" # Replace with your actual IP Webcam URL
+    stream_url = "http://192.168.2.191:8080/video" # Replace with your actual IP Webcam URL
     ```
     * Often, the IP Webcam app will provide a `/video` endpoint for the raw video stream, as shown in the example. If not, try the base URL first (e.g., `http://192.168.X.X:8080`).
 
